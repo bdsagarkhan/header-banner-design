@@ -1,0 +1,146 @@
+body {
+	font-family: Sans-serif;
+	margin: 0;
+	padding: 0;
+}
+img	{
+	max-width: 100%;
+}
+/*===================================*/
+/* Header Start */
+/*===================================*/
+.header_1 {
+    padding: 10px 0;
+    border-bottom: 2px solid #dddddd;
+    box-shadow: -1px 3px 8px 0px #dddddd;
+}
+.wrapper {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 90%;
+}
+.logo {
+	width: 20%;
+	float: left;
+}
+.navigation {
+	width: 75%;
+	float: right;
+}
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+.navigation ul li {
+	list-style: none;
+	float: left;
+}
+.navigation ul li a {
+	color: #0F2656;
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 15px;
+	transition: all 0.3s ease-in-out;
+}
+.navigation ul li a:hover {
+	color: #008AFF;
+}
+.navigation ul li.active a {
+	color: #008AFF;
+}
+.navigation ul li:last-child a {
+	padding-right: 0;
+}
+/*===================================*/
+/* Header End */
+/*===================================*/
+
+/*===================================*/
+/* Header-2 Start */
+/*===================================*/
+.header_2 {
+    background: #121B2A;
+    box-shadow: -1px 3px 8px 0px #121b2a;
+    margin: 30px 0;
+}
+/*.header_2 .wrapper {}*/
+.header_2 .logo {
+    padding: 10px 0;
+}
+/*.header_2 .login_panel {}*/
+/*.header_2 .login_panel li {}*/
+.header_2 .login_panel li a {
+	font-size: 14px;
+}
+.header_2 .login_panel li:last-child a {
+	padding-right: 15px;
+}
+.header_2 .login_panel img {
+    margin-right: 10px;
+}
+.header_2 .login_panel .login_white {
+    background-color: #ffffff;
+}
+.header_2 .login_panel .login_blue {
+	background-color: #0078BD;
+}
+.header_2 .login_panel .login_blue:hover {
+	color: #ffffff;
+}
+.header_2 .menu {
+    padding-top: 25px;
+}
+.header_2 .menu li a {
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 25px;
+}
+/*===================================*/
+/* Header-2 End */
+/*===================================*/
+
+/*===================================*/
+/* Header-3 Start */
+/*===================================*/
+.header_3 .navigation ul li a {
+	font-weight: 600;
+}
+.header_3 .navigation ul li a:hover {
+	color: #BC233E;
+}
+.header_3 .navigation ul li.active a {
+	color: #BC233E;
+}
+/*===================================*/
+/* Header-3 End */
+/*===================================*/
+
+/*===================================*/
+/* Banner Start */
+/*===================================*/
+/*.banner {}*/
+.banner_wrapper {
+    text-align: center;
+    margin: 0 auto;
+    width: 54%;
+}
+.hero {
+	color: #0F2656;
+    line-height: 1.5;
+}
+.hero h1 {
+    font-size: 55px;
+    margin: 0;
+    padding: 100px 50px 15px;
+}
+.hero h1 span {
+    color: #008AFF;
+}
+.hero p {
+	margin: 0
+}
+/*.banner_img {}*/
+/*===================================*/
+/* Banner End */
+/*===================================*/
